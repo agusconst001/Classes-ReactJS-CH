@@ -1,3 +1,5 @@
+import Counter from "../Counter/Counter";
+
 const ItemListContainer = ({greeting}) => {
     return(
     <div 
@@ -9,10 +11,12 @@ const ItemListContainer = ({greeting}) => {
         display:'flex',
         alignItems:'center',
         justifyContent:'center',
-    }}>
-        {greeting}
-    </div>)
-    ;
+    }}
+    >
+        {/* {greeting} */}
+        <Counter />
+    </div>
+    );
 };
 
 export default ItemListContainer;
