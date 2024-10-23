@@ -17,6 +17,7 @@ import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 import { CartWidget } from "../CartWidget";
 import { useItems } from "../../hooks";
 import { Link } from "react-router-dom";
+import { FaReact } from "react-icons/fa";
 
 export const NavBar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -28,7 +29,7 @@ export const NavBar = () => {
       <Box bg={useColorModeValue("gray.100", "gray.900")} px={4}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <Link to="/">
-            <Box>Logo</Box>
+            <FaReact size="45px" color="teal" />
           </Link>
           <Menu>
             <MenuButton as={Button} cursor="pointer" style={{ marginLeft: 30 }}>
