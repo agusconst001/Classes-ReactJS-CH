@@ -2,15 +2,15 @@ import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDPcMASLxoL6mgcIrVT4UE-eueJityKfAk",
-  authDomain: "coderhouse-71790.firebaseapp.com",
-  projectId: "coderhouse-71790",
-  storageBucket: "coderhouse-71790.appspot.com",
-  messagingSenderId: "1057476625626",
-  appId: "1:1057476625626:web:9ec4ba2017267883e651e3",
+  apiKey: "AIzaSyB6CnTIewZbL0Ro_n5B8enYpq9c74bvQFY",
+  authDomain: "coderproyectofinal-reactjs.firebaseapp.com",
+  projectId: "coderproyectofinal-reactjs",
+  storageBucket: "coderproyectofinal-reactjs.firebasestorage.app",
+  messagingSenderId: "789923469649",
+  appId: "1:789923469649:web:51ceed3e030e7cfbac5b70"
 };
 
-//Inicializamos Firebase en nuestra App
+// 
 const app = initializeApp(firebaseConfig);
 
 export const db = getFirestore(app);

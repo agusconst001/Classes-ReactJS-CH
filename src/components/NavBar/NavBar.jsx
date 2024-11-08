@@ -19,6 +19,7 @@ import { useItems } from "../../hooks";
 import { Link } from "react-router-dom";
 import { FaReact } from "react-icons/fa";
 
+
 export const NavBar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
 
@@ -43,6 +44,7 @@ export const NavBar = () => {
               ))}
             </MenuList>
           </Menu>
+          
           <Flex alignItems={"center"}>
             <CartWidget />
             <Stack direction={"row"} spacing={7}>
